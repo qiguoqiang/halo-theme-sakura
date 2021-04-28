@@ -17,6 +17,16 @@ general:
           label: 默认
         - value: no_cursor
           label: 无样式
+        - value: customize_cursor
+          label: 自定义
+    customize_cursor_default:
+      name: customize_cursor_default
+      label: 自定义鼠标样式-默认
+      type: attachment
+    customize_cursor_pointer:
+      name: customize_cursor_pointer
+      label: 自定义鼠标样式-指针
+      type: attachment
     shownav:
       name: shownav
       label: 展开导航菜单

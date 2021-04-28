@@ -87,7 +87,43 @@
     .highlight-wrap code {
         cursor: url(${res_base_url!}/source/cursor/texto.cur),auto
     }
+
+    <#elseif (settings.cursor_skin!'customize_cursor') == 'customize_cursor'>
+
+    a {
+        cursor: url(${settings.customize_cursor_pointer!}), auto
+    }
+
+    a:active {
+	    cursor: url(${settings.customize_cursor_pointer!}),alias
+    }
+
+    p {
+        cursor: url(${settings.customize_cursor_default!}),auto
+    }
+
+    body {
+        cursor: url(${settings.customize_cursor_default!}),auto;
+    }
+
+    .cd-top {
+        cursor: url(${settings.customize_cursor_pointer!}),auto;
+    }
+
+    .botui-actions-buttons-button {
+        cursor: url(${settings.customize_cursor_pointer!}),auto;
+    }
+
+    .button.botui-actions-buttons-button {
+        cursor: url(${settings.customize_cursor_pointer!}),auto;
+    }
+
+    .highlight-wrap code {
+        cursor: url(${settings.customize_cursor_default!}),auto
+    }
+
     </#if>
+
 
     .cd-top {
         background: url(${(settings.top_back_img)!'${res_base_url!}/source/images/scroll.png'}) no-repeat center;
