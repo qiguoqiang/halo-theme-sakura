@@ -1,11 +1,11 @@
-id: LIlGG_Sakura
-name: Sakura
+id: tudou_sakura
+name: my-sakura
 author:
-  name: LIlGG
-  website: https://lixingyong.com
+  name: TUDOU
+  website: https://blog.qgq.name
 description: halo版本的樱花🌸主题
 logo:
-website: https://github.com/LIlGG/halo-theme-sakura
-repo: https://github.com/LIlGG/halo-theme-sakura
+website: https://github.com/qiguoqiang/halo-theme-sakura
+repo: https://github.com/qiguoqiang/halo-theme-sakura
 version: 1.3.1
 require: 1.4.3
